@@ -4,7 +4,7 @@ local component = require("component")
 local event = require("event")
 local gpu = component.gpu
 
--- Detect if we have redstone (for both reactor and missile; customize as needed)
+-- Detect if we have redstone (for both reactor and missile)
 local hasReactor = component.isAvailable("redstone") -- Replace with more specific check as needed
 local hasMissile = component.isAvailable("redstone") -- Replace with more specific check as needed
 
