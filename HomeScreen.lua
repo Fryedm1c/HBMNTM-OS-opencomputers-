@@ -31,7 +31,7 @@ while true do
       -- placeholder: call your app loader here
     elseif y == 7 and hasMissile then
       gpu.set(1, 16, "Selected: Missile Launch      ")
-      -- placeholder: call your app loader here
+      os.execute("Missilelaunchapp.lua")
     elseif y == 9 then
       gpu.set(1, 16, "Selected: Settings            ")
       -- placeholder: call your app loader here
