@@ -1,4 +1,4 @@
--- OpenComputers Home Screen (Navigation Only, with Device Check)
+-- OpenComputers Home Screen --
 
 local component = require("component")
 local event = require("event")
