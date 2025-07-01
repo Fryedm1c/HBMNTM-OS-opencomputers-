@@ -28,23 +28,23 @@ while true do
   if e == "touch" then
     if y == 5 and hasReactor then
       gpu.set(1, 16, "Selected: Reactor Control      ")
-      -- placeholder: call your app loader here
+      -- placeholder: call app loader here
     elseif y == 7 and hasMissile then
       gpu.set(1, 16, "Selected: Missile Launch      ")
       os.execute("Missilelaunchapp.lua")
     elseif y == 9 then
       gpu.set(1, 16, "Selected: Settings            ")
-      -- placeholder: call your app loader here
+      -- placeholder: call app loader here
     elseif y == 11 then
       gpu.set(1, 16, "Selected: Shutdown            ")
-      -- placeholder: call your app loader here
+      -- placeholder: call app loader here
     end
   elseif e == "key_down" then
     if char == 49 and hasReactor then -- '1'
       gpu.set(1, 16, "Selected: Reactor Control      ")
-      -- placeholder: call your app loader here
+      -- placeholder: call app loader here
     elseif char == 50 and hasMissile then -- '2'
       gpu.set(1, 16, "Selected: Missile Launch      ")
-      -- placeholder: call your app loader here
+      -- placeholder: call app loader here
     elseif char
 
